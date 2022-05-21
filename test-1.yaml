@@ -1,0 +1,23 @@
+# test style sheet
+
+# Based on McClelland et al. https://doi.org/10.3897/phytokeys.145.48531
+name: test
+delimiter: ", "
+end: "."
+output:
+  country:
+    delimiter: ". "
+  stateProvince:
+     delimiter: ": "
+  locality:
+  elevation:
+    units: "m"
+  day:
+     delimiter: " "
+  month:
+     delimiter: " "
+     format: M # abbreviated month
+  year:
+  recordedBy:
+    delimiter: " "
+  recordNumber:

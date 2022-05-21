@@ -1,0 +1,186 @@
+<html>
+
+<head>
+	<style>
+	body {
+		font-family:sans-serif;
+		padding:20px;
+	}
+	</style>
+
+
+	<script>
+	
+	// https://red-sweater.com/blog/3025/marsedit-live-source-preview	
+	function escapeHTML(theHTML) {
+	  var escapedHTML = theHTML
+	  escapedHTML.replace("&", "&amp;");
+	  escapedHTML.replace("<", "&lt;");
+	  return escapedHTML;
+	}
+
+	function updatePreview() {
+	  var source = document.getElementById("editor").innerText;
+	  document.getElementById("preview").innerText = escapeHTML(source);
+	}
+	
+	// XSLT style sheet to transform training data into HTML with coloured tags
+	var xmlString = `<?xml version="1.0"?>
+<xsl:stylesheet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+	<xsl:output encoding="utf-8" indent="yes" method="html" version="1.0"/>
+	<xsl:template match="/">
+		<html>
+			<head>
+				<!-- colour names from https://www.w3schools.com/colors/colors_names.asp -->
+				<style>
+					li {
+						padding:0.4em;
+					}
+					
+		
+
+  .country { background-color: rgb(223,128,32); }
+  .stateProvince { background-color: rgb(242,156,36); }
+  .locality { background-color: rgb(254,191,132); }
+  .geoCoordinate { background-color: rgb(186,252,136); }
+  
+  .elevation { background-color: rgb(250,128,159); }
+  
+  /*
+  .day { background-color: rgb(241,135,252); }
+  .month { background-color: rgb(241,135,252); }
+  .year { background-color: rgb(241,135,252); }
+  */
+  
+  .date  { background-color: rgb(241,135,252); }
+  
+  .recordedBy { background-color: rgb(143,234,139); }
+  .recordNumber { background-color: rgb(143,234,139); }
+
+  .specimenCode { background-color: rgb(255,247,136); }
+  
+  .institutionCode { background-color: rgb(123,134,234); }
+			
+					
+					
+					
+				</style>
+			</head>
+			<body>
+		
+		
+			<ul>
+				<xsl:apply-templates select="//sequence"/>
+			</ul>
+			
+			</body>
+		</html>
+	</xsl:template>
+	
+	<xsl:template match="sequence">
+	<li>
+		<!-- list all children -->
+		<xsl:for-each select="node()">
+			<!-- ignore anything that isn't a node, such as a comment -->
+			<xsl:if test="text()">
+				<span>
+					<xsl:attribute name="class">
+						<xsl:value-of select ="local-name()"/>
+					</xsl:attribute>			
+				 <xsl:value-of select="."/>
+				</span>
+				<xsl:text> </xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+	</li>
+	</xsl:template>
+	
+	
+	
+</xsl:stylesheet>
+	
+`;
+
+
+		// https://www.w3schools.com/xml/xsl_client.asp
+
+		var parser = new DOMParser();
+		var xsl = parser.parseFromString(xmlString, "text/xml"); //important to use "text/xml"
+
+		var serializer = new XMLSerializer();
+		var xmlString = serializer.serializeToString(xsl);
+
+		function displayResult() {
+		  var xml = parser.parseFromString(document.getElementById("editor").innerText, "text/xml");
+
+		  xmlString = serializer.serializeToString(xml);
+		  document.getElementById("log").value = xmlString;
+
+		  if (document.implementation && document.implementation.createDocument) {
+			xsltProcessor = new XSLTProcessor();
+			xsltProcessor.importStylesheet(xsl);
+			resultDocument = xsltProcessor.transformToFragment(xml, document);
+
+			// clear any content
+			document.getElementById("preview").innerHTML = '';
+			// add HTML view of training data
+			document.getElementById("preview").appendChild(resultDocument);
+
+		  }
+		}
+	
+	</script>
+</head>
+
+<body>
+
+	<h1>Edit training data</h1>
+
+	<h2>Preview</h2>
+	<div id="preview" style="padding:10px;height:300px;overflow-y:auto;"></div>
+
+	<h2>XML</h2>
+	<p>If some of the text above disappears, remember to balance your tags! When tagging, include any punctuation in the tag.</p>
+	<pre style="white-space:pre-wrap">
+		<div id="editor" style="color:DarkSlateGrey;padding:20px;height:300px;border:1px solid DarkGrey;overflow-y:auto;" contenteditable="true">
+		</div>
+	</pre>
+
+	<textarea id="log" rows="10" cols="40" readonly=""></textarea>
+
+	<script>
+
+		// some exmaple data
+		var demo = `<?xml version="1.0" encoding="UTF-8"?><dataset>
+<sequence>
+<country>Papua New Guinea.</country> <locality>Papua. Normanby Isl., Waikaiuna,</locality> <elevation>5 m,</elevation> <day>17</day> <month>Apr</month> <year>1956,</year> <recordedBy>L. J. Brass</recordedBy> <recordNumber>25460,</recordNumber> .
+</sequence>
+<sequence>
+<country>United States of America.</country> <stateProvince>Hawaii:</stateProvince> <locality>Nihoa,</locality> <day>19</day> <month>Jun</month> <year>1923,</year> <recordedBy>E. L. Caum</recordedBy> <recordNumber>68,</recordNumber> 
+</sequence >
+<sequence><country>United States of America.</country> <stateProvince>Hawaii:</stateProvince> <locality>Leeward Islands, Nihoa.,</locality> <elevation>75 m,</elevation> <day>19</day> <month>Jun</month> <year>1923,</year> <recordedBy>E.L. Caum</recordedBy> <recordNumber>Caum 68,</recordNumber> </sequence>
+<sequence>
+<country>Papua New Guinea.</country> <locality>Malalia near Cape Hoskins, West Nakanai, New Britain.,</locality> <recordedBy>A. Floyd</recordedBy> <recordNumber>6549,</recordNumber> 
+</sequence>
+<sequence>
+<country>INDONESIA.</country> <stateProvince>Central Kalimantan [Kalimantan Tengah]:</stateProvince> <locality>In plot 8. Km 92 from Sangai S. Mentaya, KAb. Kotawaringin Timur.,</locality> <elevation>100 m,</elevation> <day>18</day> <month>May</month> <year>1993,</year> <recordedBy>Flora of Central Kalimantan (1993)</recordedBy> <recordNumber>93187,</recordNumber> 
+</sequence>
+<sequence><country>BRASIL,</country> <stateProvince>Bahia:</stateProvince> <locality>Serra Geral de Caitité 1.5km S. of Brejinhos das Ametistas. .,</locality> <date>11 4 1980,</date> <recordedBy>R.M. Harley</recordedBy> <recordNumber>21212,</recordNumber> </sequence>
+</dataset>`;
+
+		document.getElementById("editor").innerText = escapeHTML(demo);
+		//updatePreview();
+
+		displayResult();
+
+		// Listen for changes to the edited XML
+		document.getElementById("editor").addEventListener("input", function() {
+		  // document.getElementById("log").value += "input event fired\n";    
+		  //    updatePreview();
+		  displayResult();
+		}, false);
+	</script>
+
+</body>
+</html>
+
