@@ -231,7 +231,7 @@ function parse_author_string($str)
 }
 
 // test
-if (1)
+if (0)
 {
 
 	$strings = array(
@@ -316,7 +316,8 @@ if (1)
 	//'E. L. Taylor, M. F. F. da Silva, J. Oliviero, C. S. Rosário, J. B. Silva & M. R. Santos',
 	//'Anstis, M., F. Parker, T. Hawkes, I. Morris, and S. J. Richards.',
 	//'G. Pereira-Silva',
-	'R. M. Harley, G. Bromley, A. M. Carvalho, J. L. Hage & H. S. Brito' // http://localhost/~rpage/plazi-tester/?uri=03943308-FFF9-FFE5-F6EE-6D37FD68FE60
+	//'R. M. Harley, G. Bromley, A. M. Carvalho, J. L. Hage & H. S. Brito' // http://localhost/~rpage/plazi-tester/?uri=03943308-FFF9-FFE5-F6EE-6D37FD68FE60
+	'Poulsen, Axel Dalberg; Bau, Billy; Akoitai, Thomas; Akai, Saxon'
 	);
 	
 	
@@ -330,4 +331,3 @@ if (1)
 
 }
 ?>
-

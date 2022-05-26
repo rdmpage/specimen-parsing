@@ -5,24 +5,33 @@ name: test
 delimiter: ", "
 end: "."
 output:
+
   country:
     delimiter: ". " #", " #". "
     format: uppercase
+    
   stateProvince:
      delimiter: ": "
+     
   locality:
   
-  # assume lat lon formats are the same
-  
+  # assume latitude and longitude formats are the same
+  # 
   latitude:
+
 #    minutes: ′
 #    seconds: ′′
-    format: decimal
+
+    minutes: ’
+    seconds: ”
+   # format: decimal
     
   longitude:
   
   elevation:
+    #prefix: "elev. "
     units: "m"
+    suffix: " [a.s.l.]"
     
   # date
   date:
@@ -30,26 +39,34 @@ output:
        delimiter: " "
     month:
        delimiter: " "
-       format: r # F #M # abbreviated month
+       format: F #r # F #M # abbreviated month
     year:
         delimiter: ""
     
   recordedBy:
     delimiter: " "
   recordNumber:
+    delimiter: " "
+    
+  related:
+    delimiter: ""
+    prefix: (
+    suffix: )
+    
   
 #  institutionCode:
 #    delimiter: ""
 #    prefix: (
 #    suffix: )
-#  
-  specimenCode:
-    prefix: (
-    suffix: )
-    delimiter: ""
-    type:
-      suffix: "!"
-      prefix: $typeStatus
-      format: lowercase
-    
+
+#  specimenCode:
+#    field: $institutionCode # $catalogNumber
+#    prefix: (
+#    suffix: )
+#    delimiter: ""
+#    type:
+#      suffix: "!"
+#      prefix: $typeStatus
+#      format: lowercase
+#   
     
