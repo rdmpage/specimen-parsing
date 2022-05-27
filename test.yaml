@@ -28,10 +28,11 @@ output:
     
   longitude:
   
+  # Could also add a rule to format a number with comma using PHP number_format($number)
   elevation:
     #prefix: "elev. "
     units: "m"
-    suffix: " [a.s.l.]"
+    #suffix: " [a.s.l.]"
     
   # date
   date:
@@ -39,7 +40,7 @@ output:
        delimiter: " "
     month:
        delimiter: " "
-       format: F #r # F #M # abbreviated month
+       format: F #r # F #M # abbreviated month (modelled on PHP date formats except "r" and "R" for Roman)
     year:
         delimiter: ""
     

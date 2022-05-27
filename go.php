@@ -143,15 +143,22 @@ foreach ($files as $filename)
 	}
 }
 
+/*
 $ids=array(1056006536);
 
 
 $ids=array(
 //1424191576,
 //1090501610,
-2452944718,
+//2452944718,
 );
 
+// Tocoyena
+$ids=array(
+1424288784, // RB
+//1929032407,
+);
+*/
 
 // get style sheet
 $filename = 'test.yaml';
@@ -159,6 +166,7 @@ $filename = 'test.yaml';
 // Parse YAML file and convert to object
 $stylesheet = Yaml::parseFile($filename);
 
+echo "<dataset>\n";
 
 foreach ($ids as $id)
 {
@@ -188,10 +196,10 @@ foreach ($ids as $id)
 
 	$output = occurrence_to_string($obj, $stylesheet, true);
 
-	echo '<sequence>' . $output . '</sequence>' . "\n";
+	echo '<sequence id="'. $id . '">' . $output . '</sequence>' . "\n";
 
 }
-
+echo "</dataset>\n";
 
 ?>
 

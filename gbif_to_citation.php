@@ -456,6 +456,12 @@ we could fake it by creating a dummy file with just the bare detals that we need
   }]
 }
 
+To do: do we want to add barcodes and imafes here as well?
+e.g.
+
+BRAZIL. Bahia: Teixeira de Freitas, mata higrófila, terreno aberto, 17°26ˈ27”S, 40°10ˈ15”W,
+ 764 m, 26 November 2009 (fl.), V.F. Mansano 670 
+ (holotype RB! [barcode RB00578075] isotypes NY! [barcode NY01182630] (image), UEC! [barcode UEC054114]).
 
 */
 function do_related(&$obj, $stylesheet)
@@ -560,7 +566,7 @@ function do_related(&$obj, $stylesheet)
 		asort($institution_codes[$status]);
 	}
 	
-	print_r($institution_codes);
+	//print_r($institution_codes);
 
 	$output = array();
 
@@ -599,8 +605,10 @@ function do_related(&$obj, $stylesheet)
 		}
 	}
 
-	$obj->related = join(', ', $output);
-
+	if (count($output) > 0)
+	{
+		$obj->related = join(', ', $output);
+	}
 }
 
 //----------------------------------------------------------------------------------------

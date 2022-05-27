@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
 <sequence>
-<country>VIETNAM.</country> <locality>Khanh Hoa Province: Khanh Vinh District, Son Thai Commune,</locality> <geoCoordinate>12°12’59.4”N, 108°44’54.5”E,</geoCoordinate> <elevation>ca. 1,000 m elev.,</elevation> <date>23 September 2018,</date> <recordedBy>T. C. Hsu</recordedBy> <recordNumber>10952</recordNumber> <specimenCode>(holotype TAIF-537150!; isotype: SGN!)</specimenCode> 
+<country>VIETNAM.</country> <locality>Khanh Hoa Province: Khanh Vinh District, Son Thai Commune,</locality> <geoCoordinate>12°12’59.4”N, 108°44’54.5”E,</geoCoordinate> <locality>ca. 1,000 m elev.,</locality> <date>23 September 2018,</date> <recordedBy>T. C. Hsu</recordedBy> <recordNumber>10952</recordNumber> <locality>(holotype TAIF-537150!;</locality> <related>isotype: SGN!)</related> 
 </sequence>
 <sequence>
-<country>Ecuador.</country> <stateProvince>Pichincha:</stateProvince> <locality>canton Quito, parroquia Pacto, primary road between the town of Pacto and Mashpi Lodge,</locality> <geoCoordinate>0°9'49.3"N, 78°49'14.6"W,</geoCoordinate> <elevation>1662 m,</elevation> <date>15 Mar 2019,</date> <recordedBy>J.L. Clark &amp; L. Jost</recordedBy> <recordNumber>16286</recordNumber> <locality>(holotype: US; isotypes: ECUAMZ, QCA,</locality> <specimenCode>SEL).</specimenCode> 
+<country>Ecuador.</country> <stateProvince>Pichincha:</stateProvince> <locality>canton Quito, parroquia Pacto, primary road between the town of Pacto and Mashpi Lodge,</locality> <geoCoordinate>0°9'49.3"N, 78°49'14.6"W,</geoCoordinate> <elevation>1662 m,</elevation> <date>15 Mar 2019,</date> <recordedBy>J.L. Clark &amp; L. Jost</recordedBy> <recordNumber>16286</recordNumber> <related>(holotype: US; isotypes: ECUAMZ, QCA, SEL).</related> 
 </sequence>
 </dataset>
 

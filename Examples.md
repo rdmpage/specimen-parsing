@@ -2,6 +2,7 @@
 
 
 Note that “fl fr” seems to be an abbreviation for “flowers and fruits”, and “s. n.” Means no number for a collector code.
+! Means specimen has been seen, not that sometimes people include “image”
 
 - Type: Turkey, A9 Ardahan, Çıldır, Taşbaşı Village, alpine grassland and rocky places, 40°56′54.48″N, 43°18′43.44″E, 2109 m a.s.l., 1 Jul 2013, S.Güven 69 & S.Makbul (holotype: RUB!; isotypes: KTUB!, KATO!, ANK!) 03EA1E65-FFC8-FFE8-FF54-999DFE070030
 
@@ -39,3 +40,5 @@ Note that “fl fr” seems to be an abbreviation for “flowers and fruits”, 
 
 
 - Malaysia, Sarawak, J. Leong-Škorničková JLS-432 (SING)
+
+- BRAZIL. Bahia: Teixeira de Freitas, mata higrófila, terreno aberto, 17°26ˈ27”S, 40°10ˈ15”W, 764 m, 26 November 2009 (fl.), V.F. Mansano 670 (holotype RB! [barcode RB00578075] isotypes NY! [barcode NY01182630] (image), UEC! [barcode UEC054114]). (Figures 2−3). https://doi.org/10.11646/phytotaxa.470.3.4 GBIF 1424288784
