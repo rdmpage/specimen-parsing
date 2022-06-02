@@ -51,7 +51,7 @@ function parse_author_string($str)
 
 	// patterns
 	
-	$FAMILY = '(?<family>((da|de|von)\s+)?[\p{Lu}][\']?\p{L}+((-|\s+von\s+)[\p{Lu}]\p{L}+)?)';
+	$FAMILY = '(?<family>((da|de|von|De|Le)\s+)?[\p{Lu}][\']?\p{L}+((-|\s+von\s+)[\p{Lu}]\p{L}+)?)';
 
 	$GIVEN = '(?<given>(((da|de)\s+)?[\p{Lu}]\.[\s*|-]?)+)';
 	
@@ -212,8 +212,8 @@ function parse_author_string($str)
 						$best_score = $score;
 
 						$best_patterns = array();
-						$best_patterns[] ='FIRST_FAMILY_COMMA_GIVEN_FULL';
-						$best_patterns[] =$try_pat;
+						$best_patterns[] = $first_pattern;
+						$best_patterns[] = $try_pat;
 
 					}
 				}		
@@ -320,7 +320,12 @@ if (0)
 	'Poulsen, Axel Dalberg; Bau, Billy; Akoitai, Thomas; Akai, Saxon'
 	);
 	
-	
+	$strings=array(
+	'Ralf Britz, Ariane Standing, Biju Kumar, Manoj Kripakaran, Unmesh Katwate, Remya L. Sundar and Rajeev Raghavan',
+	'Silva-Albuquerque, Lídia C. and Oscar A. Shibatta',
+	'De Weirdt, David, Charlotte E. T. Huyghe and Emmanuel J. W. M. N. Vreven',
+	'Uwa, Hiroshi',
+	);
 
 	foreach ($strings as $str)
 	{

@@ -1,5 +1,6 @@
 # Examples
 
+## Plants
 
 Note that “fl fr” seems to be an abbreviation for “flowers and fruits”, and “s. n.” Means no number for a collector code.
 ! Means specimen has been seen, not that sometimes people include “image”
@@ -42,3 +43,43 @@ Note that “fl fr” seems to be an abbreviation for “flowers and fruits”, 
 - Malaysia, Sarawak, J. Leong-Škorničková JLS-432 (SING)
 
 - BRAZIL. Bahia: Teixeira de Freitas, mata higrófila, terreno aberto, 17°26ˈ27”S, 40°10ˈ15”W, 764 m, 26 November 2009 (fl.), V.F. Mansano 670 (holotype RB! [barcode RB00578075] isotypes NY! [barcode NY01182630] (image), UEC! [barcode UEC054114]). (Figures 2−3). https://doi.org/10.11646/phytotaxa.470.3.4 GBIF 1424288784
+
+- Vietnam. Lai Chau Province, Tam Duong District, Pu Ta Leng Mountain, 22°27'17"N, 103°33'07"E, 2329 m elevation, 14 June 2020, Nguyen Quoc Binh, Tran Duc Binh, Doan Hoang Son, Nguyen Hieu Cuong SH 992 (holotype, VNMN!; isotypes, SGN!, VNMN!) A426BFE4-B812-53A5-AF46-545ABED45B93
+
+- China. Yunnan: Wenshan Zhuang and Miao Autonomous Prefecture, Malipo County, Laojunshan Provincial Nature Reserve, elev. 1517 m, 18 September 2020 (fl.), Si-Jin Zeng 4932 (holotype : IBSC!; isotypes: CANT!, KUN!, PE!) A426BFE4B81253A5AF46545ABED45B93
+
+- Vietnam. Ha Tinh Province: Vu Quang District, Vu Quang National Park, 1103 m  elevation, 18°15.133'N, 105°25.657'E, 30 August 2020, Do Van Truong DVT379 (holotype VNMN; isotypes HN, VNMN) B0233A344FAC55F3BADF38431BA6E3AD
+
+- BRAZIL . Piauí: Mun. Caracol, povoado de Bom Sucesso, próximo a caverna (grotão), 9º13’13”S , 43º29’19”W, 597 m, 17 July 2011, fl. fr., E. Melo 10101 (holotype: HUEFS!; isotypes: CAS!, HVASF!, RB!) 03B8FA5BFFE0FFAABCC6A49387B2F89A
+
+- China. Qinghai, Yushu, Sanjiangyuan, N33° 1’ 34.20” E97°12’ 54.48”, 3,478 m, 28 June 2020, J. Zhang, C046 (holotype: PEY! Isotype: PEY! PE!) 23107F40FFADCF7EFF12B1654983D07F (note the comma in the elevation)
+
+- CHINA. Guangxi Zhuang Autonomous Region: Baise City, Napo Count , Bainan Town, Laohutiao Gorges, elev. 297 m, 22 September 2021, Ying Qin, Gao Xie & Xiao-fei Song ZYA02683 (holotype: IBK, isotype: IBK, PE) 03D01D7A-FFBB-FFBE-FF59-D727FF595046
+
+- MYANMAR, Sagaing Region, Monywa District, Budalin Township, elev. ca. 80 m, cultivated, 7 May 2021, K . Z .Hein 41 (holotype TTM!; isotype TTM, spirit!) 03C0B972FFD40531FF6A3049FD12FE26
+
+- Chile. Prov. de Antofagasta, Entre Calama y San Pedro de Atacama, Anual, abundante, Expedicion al Desierto. 22°41.27'S, 68°28.46'W [estimated from label locality data], 2800 m elevation. 3 January 1944, C. Munoz  3710 (holotype: SGO 119165!) 03C0B972-FFD4-0531-FF6A-3049FD12FE26
+
+- MEXICO. Veracruz , Huatusco, Río seco, road between Ixpila and Huatusco on the way to Tenejapa, approximately 3 km south of Huatusco, 19.127376° N, 96.981851° W, 1283 m, montane cloud forest, tree 7 m  tall, cream-white flowers, in riparian vegetation within the montane cloud forest, 2 January 2022, E. J. Marinero-Sobal 425 (holotype MEXU!, isotypes CIB!, MO!) 0383C04CFFCDB74DABA0F11AFDA4898D
+
+## Fungi
+
+- China. Xizang Autonomous Region (Tibet), Mangkang County, Mangkang Mountain, on fallen trunk of Abies sp., 8 September 2020, Cui 18383 (holotype BJFC 035242) 0D3F936C2A845213A3B8A9B7014DC52C
+
+- Taiwan, Taichung City, Heping District, near trailhead of Mt. Tangmadan Trail, 24°09'53.0"N , 120°57'26.4"E , 670 m asl., on dead angiosperm trunk, 20 Aug 2020, leg. C.L. Wei, WEI 20-166 (holotype, TNM F34448). GenBank: ITS = MW580922; 28S = MW580924. - 82EEBE91A1135B1F9DA22FAFF8228249
+
+- China, Jiangxi Province, Yichun City, Yifeng County, Guanshan National Nature Reserve, 500 m asl., on dead Castanopsis wood, 9 Aug 2016, leg. S.H. He, He 4195 (BJFC 023637) - 82EEBE91A1135B1F9DA22FAFF8228249
+
+
+- Taiwan, Taichung City, Heping District, near trailhead of Mt. Tangmadan Trail, 24°09'53.0"N, 120°57'26.4"E, 670 m asl., on dead angiosperm trunk, 20 Aug 2020 leg. C.L. Wei, WEI 20-173 (TNMF0034449) - 82EEBE91A1135B1F9DA22FAFF8228249
+
+- BRAZIL. Minas Gerais: Lagoa Santa, paa grused campos, hvid bl. (in campos vegetation with much gravel, white flowers), 18.viii.1864 (fl), J.E.B. Warming (Holotype: not indicated; lectotype, designated here: W-R 23938; Isotypes: BR, C, P, W-R 23937). - https://academic.oup.com/botlinnean/article/165/4/348/2418525
+
+
+## Animals
+
+- MZB 10718, 65.0 mm SL; Borneo: Kalimantan Timur: Kayan River drainage, Sungai Nah, tributary to Kayan River ca. 20 minutes upstream of confluence with Iwan River, 1°57'43.2"N 115°6'35.4"E at 550 m asl; H. H. Tan et al., 27 Nov 1999. “Two new species of Leiocassis (Teleostei: Bagridae), riverine catfishes from northeast Borneo”
+
+
+
+
