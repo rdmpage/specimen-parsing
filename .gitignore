@@ -1,4 +1,9 @@
 /plazi/
+
 /vendor/
-/tmp/
+
+tmp/*.train
+tmp/*.txt
+tmp/*.xml
+
 /junk/
