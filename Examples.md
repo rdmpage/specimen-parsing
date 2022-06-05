@@ -48,11 +48,11 @@ Note that “fl fr” seems to be an abbreviation for “flowers and fruits”, 
 
 - China. Yunnan: Wenshan Zhuang and Miao Autonomous Prefecture, Malipo County, Laojunshan Provincial Nature Reserve, elev. 1517 m, 18 September 2020 (fl.), Si-Jin Zeng 4932 (holotype : IBSC!; isotypes: CANT!, KUN!, PE!) A426BFE4B81253A5AF46545ABED45B93
 
-- Vietnam. Ha Tinh Province: Vu Quang District, Vu Quang National Park, 1103 m  elevation, 18°15.133'N, 105°25.657'E, 30 August 2020, Do Van Truong DVT379 (holotype VNMN; isotypes HN, VNMN) B0233A344FAC55F3BADF38431BA6E3AD
+- Vietnam. Ha Tinh Province: Vu Quang District, Vu Quang National Park, 1103 m  elevation, 18°15.133'N, 105°25.657'E, 30 August 2020, Do Van Truong DVT379 (holotype VNMN; isotypes HN, VNMN) B0233A344FAC55F3BADF38431BA6E3AD **note letters as part of record number**
 
-- BRAZIL . Piauí: Mun. Caracol, povoado de Bom Sucesso, próximo a caverna (grotão), 9º13’13”S , 43º29’19”W, 597 m, 17 July 2011, fl. fr., E. Melo 10101 (holotype: HUEFS!; isotypes: CAS!, HVASF!, RB!) 03B8FA5BFFE0FFAABCC6A49387B2F89A
+- BRAZIL . Piauí: Mun. Caracol, povoado de Bom Sucesso, próximo a caverna (grotão), 9º13’13”S , 43º29’19”W, 597 m, 17 July 2011, fl. fr., E. Melo 10101 (holotype: HUEFS!; isotypes: CAS!, HVASF!, RB!) 03B8FA5BFFE0FFAABCC6A49387B2F89A **note the fl. fr**.
 
-- China. Qinghai, Yushu, Sanjiangyuan, N33° 1’ 34.20” E97°12’ 54.48”, 3,478 m, 28 June 2020, J. Zhang, C046 (holotype: PEY! Isotype: PEY! PE!) 23107F40FFADCF7EFF12B1654983D07F (note the comma in the elevation)
+- China. Qinghai, Yushu, Sanjiangyuan, N33° 1’ 34.20” E97°12’ 54.48”, 3,478 m, 28 June 2020, J. Zhang, C046 (holotype: PEY! Isotype: PEY! PE!) 23107F40FFADCF7EFF12B1654983D07F **note the comma in the elevation**
 
 - CHINA. Guangxi Zhuang Autonomous Region: Baise City, Napo Count , Bainan Town, Laohutiao Gorges, elev. 297 m, 22 September 2021, Ying Qin, Gao Xie & Xiao-fei Song ZYA02683 (holotype: IBK, isotype: IBK, PE) 03D01D7A-FFBB-FFBE-FF59-D727FF595046
 
@@ -74,6 +74,8 @@ Note that “fl fr” seems to be an abbreviation for “flowers and fruits”, 
 - Taiwan, Taichung City, Heping District, near trailhead of Mt. Tangmadan Trail, 24°09'53.0"N, 120°57'26.4"E, 670 m asl., on dead angiosperm trunk, 20 Aug 2020 leg. C.L. Wei, WEI 20-173 (TNMF0034449) - 82EEBE91A1135B1F9DA22FAFF8228249
 
 - BRAZIL. Minas Gerais: Lagoa Santa, paa grused campos, hvid bl. (in campos vegetation with much gravel, white flowers), 18.viii.1864 (fl), J.E.B. Warming (Holotype: not indicated; lectotype, designated here: W-R 23938; Isotypes: BR, C, P, W-R 23937). - https://academic.oup.com/botlinnean/article/165/4/348/2418525
+
+- China. Jiangxi Province: Guixi City, Liukou town, under the cliffs of Danxia mountains, alt. 75m a.s.l., 12 June 2021, Bin Chen CB 05735 (holotype CSH!, barcode CSH0186434; isotypes CSH!, barcode CSH0186431, CSH0186433, CSH0118470) 5DED7DFE-4570-53C3-A1AC-23B14642B08E
 
 
 ## Animals
